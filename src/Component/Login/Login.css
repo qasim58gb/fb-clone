@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    margin: auto;   
+    background-color: #f1f1f6; 
+}
+.login__logo>img{
+    height: 10rem;
+    object-fit: contain;
+}
+.login__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__titleName--text{
+    text-align: center;
+    color: #1363DF;
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight:bolder;
+    font-family: 'Righteous', cursive;
+}
+
+.login__button--login{
+    
+    padding: 1rem 10rem;
+    background-color: #1363DF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.login__button--login:hover{
+    background-color: white;
+    color: #1363DF;
+}

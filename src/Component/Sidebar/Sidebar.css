@@ -1,0 +1,12 @@
+.Sidebar__prop{
+padding: 25px 10px ;
+}
+.sidebar{
+    flex: .3;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-x: hidden
+ 
+}
